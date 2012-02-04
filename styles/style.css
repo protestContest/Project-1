@@ -26,17 +26,15 @@ header {
 }
 
 #content {
-	outline: 1px solid black;
-	padding: 50px 30px;
-}
-
-#inner-content {
-/*	float: left;*/
+/*	outline: 1px solid black;*/
+	text-align: justify;
 }
 
 #mainimage {
 	float: left;
-	margin-right: 10px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	width: 250px;
 }
 
 #info {
@@ -46,4 +44,48 @@ header {
 	padding: 20px;
 }
 
+.gradient {
+	height: 100px;
+	background-image: url('gradient.jpg');
+	background-repeat: repeat-x;
+}
 
+footer {
+	background: #0069D6;
+	color: #fff;
+	margin-top: 0px;
+	border: 0px;
+	text-align: center;
+	border-radius: 15px;
+	position: relative;
+	top: -15px;
+}
+footer ul {
+	list-style: none;
+	text-align: left;
+}
+footer a:link {
+	color: #fff;
+}
+footer a:visited {
+	color: #fff;
+}
+footer a:hover {
+	color: #EB5D58;
+}
+footer a:active {
+	color: #EB5D58;
+}
+
+.footer-container {
+	padding-left: 49px;
+	border-right: 1px solid white;
+}
+.footer-container-last {
+	padding-left: 20px;
+}
+
+footer p {
+	padding: 15px;
+	clear: both;
+}

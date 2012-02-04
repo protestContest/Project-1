@@ -3,34 +3,47 @@ body {
 }
 
 header {
-
+	background: #aaf;
+	border-radius: 10px;
+	margin-top: 10px;
+	padding-top: 20px;
 }
 
 #title {
 
 }
 #title h1 {
-
+	size: 32px;
+	color: white;
 }
 
 .align-right {
-
+	text-align: right;
 }
 
 .spacer {
-
+	min-height: 40px;
 }
 
 #content {
+	outline: 1px solid black;
+	padding: 50px 30px;
+}
 
+#inner-content {
+/*	float: left;*/
 }
 
 #mainimage {
-
+	float: left;
+	margin-right: 10px;
 }
 
 #info {
-
+	background: #bbe;
+	border-radius: 15px;
+	float: right;
+	padding: 20px;
 }
 
 

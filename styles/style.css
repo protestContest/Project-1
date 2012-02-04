@@ -62,7 +62,7 @@ footer {
 }
 footer ul {
 	list-style: none;
-	text-align: left;
+	margin-left: 0px;
 }
 footer a:link {
 	color: #fff;
@@ -76,13 +76,18 @@ footer a:hover {
 footer a:active {
 	color: #EB5D58;
 }
+footer h5 {
+	color: #fff;
+}
 
 .footer-container {
 	padding-left: 49px;
 	border-right: 1px solid white;
+	text-align: left;
 }
 .footer-container-last {
 	padding-left: 20px;
+	text-align: left;
 }
 
 footer p {
